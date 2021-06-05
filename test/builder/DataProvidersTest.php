@@ -14,6 +14,8 @@ class DataProvidersTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldAllowArbitraryDataAsLongAsItsMappedToValid()
     {

@@ -14,6 +14,8 @@ class KeyMapperTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function test()
     {
@@ -38,6 +40,8 @@ class KeyMapperTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function keyMapperShouldMapRegularKey()
     {

@@ -15,6 +15,8 @@ class DataProvidersTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldCross()
     {
@@ -41,6 +43,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldThrowForAssociativeArray()
     {
@@ -55,6 +59,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldThrowForInvalidIteration()
     {
@@ -69,6 +75,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldGetEach()
     {
@@ -86,6 +94,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldGetEachNamed()
     {

@@ -14,6 +14,8 @@ class DataProvidersBuilderTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function test()
     {
@@ -39,6 +41,8 @@ class DataProvidersBuilderTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function joinedIteration()
     {
@@ -59,6 +63,8 @@ class DataProvidersBuilderTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldMap()
     {
@@ -83,6 +89,8 @@ class DataProvidersBuilderTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldMapKeys()
     {
@@ -107,6 +115,8 @@ class DataProvidersBuilderTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldFlatMap()
     {
@@ -141,6 +151,8 @@ class DataProvidersBuilderTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function singleIteration()
     {

@@ -15,6 +15,8 @@ class DataProvidersTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldGetMixedPairs()
     {
@@ -47,6 +49,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldGetDistinctPairs()
     {
@@ -75,6 +79,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldNotContainDuplicates()
     {
@@ -88,6 +94,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function testEmpty()
     {
@@ -97,6 +105,8 @@ class DataProvidersTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldDisplayKeysOfVariousTypes()
     {
