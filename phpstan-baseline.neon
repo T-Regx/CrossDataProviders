@@ -1,0 +1,17 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Parameter \\#1 \\.\\.\\.\\$dataProviders of static method TRegx\\\\DataProvider\\\\DataProviders\\:\\:cross\\(\\) expects array\\<int\\|string, array\\<int, mixed\\>\\>, array\\<int, array\\<int, string\\>\\|string\\> given\\.$#"
+			count: 1
+			path: test/DataProvidersTest.php
+
+		-
+			message: "#^Parameter \\#1 \\.\\.\\.\\$dataProviders of static method TRegx\\\\DataProvider\\\\DataProviders\\:\\:cross\\(\\) expects array\\<int\\|string, array\\<int, mixed\\>\\>, array\\<int, array\\<int\\|string, string\\>\\> given\\.$#"
+			count: 1
+			path: test/DataProvidersTest.php
+
+		-
+			message: "#^Function get_resources invoked with 0 parameters, 1 required\\.$#"
+			count: 1
+			path: test/TypeTest.php
+
