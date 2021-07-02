@@ -18,6 +18,8 @@ class TypeTest extends TestCase
      *
      * @param mixed $value
      * @param string $expectedString
+     *
+     * @return void
      */
     public function shouldGetMessageWithType($value, string $expectedString)
     {

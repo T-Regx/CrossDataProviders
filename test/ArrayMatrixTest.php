@@ -14,6 +14,8 @@ class ArrayMatrixTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function crossWithEmptyArrayShouldCross()
     {
@@ -26,6 +28,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossWithNonEmptyAndEmptyArrayShouldCross()
     {
@@ -41,6 +45,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossWithEmptyAndNonEmptyArrayShouldCross()
     {
@@ -56,6 +62,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldReturnSingleArrayUnchanged()
     {
@@ -71,6 +79,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldCrossSingleItemArrays()
     {
@@ -118,6 +128,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldCrossMultipleItemArrays()
     {
@@ -142,6 +154,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldCrossSingleItemArraysWithNames()
     {
@@ -174,6 +188,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldCrossSingleItemArraysWithMultipleTypes()
     {
@@ -231,6 +247,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldCrossSingleItemArraysWithMultipleTypesAndWithNames()
     {
@@ -288,6 +306,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldQuoteFirstArray()
     {
@@ -310,6 +330,8 @@ class ArrayMatrixTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function crossShouldCrossAssociativeArrayEvenWithJaggedIterations()
     {

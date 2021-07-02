@@ -15,6 +15,8 @@ class DataProvidersEachTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function eachNamedShouldThrowForInvalidType()
     {
@@ -28,6 +30,8 @@ class DataProvidersEachTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function eachShouldThrowForDuplicated()
     {
@@ -41,6 +45,8 @@ class DataProvidersEachTest extends TestCase
 
     /**
      * @test
+     *
+     * @return void
      */
     public function eachNamedShouldThrowForDuplicated()
     {

@@ -14,6 +14,8 @@ class CrossDataProvidersTest extends TestCase
 {
     /**
      * @test
+     *
+     * @return void
      */
     public function shouldCross()
     {
